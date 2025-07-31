@@ -14,9 +14,6 @@
     <script src="api.lua"       type="server" />
     <script src="exports.lua"   type="server" />
 
-    <export function="get_path"             type="server" />
-    <export function="execute"              type="server" />
-    <export function="table_to_query"       type="server" />
     <export function="Send"                 type="server" />
     <export function="SendArray"            type="server" />
     <export function="Status"               type="server" />
