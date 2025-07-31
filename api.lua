@@ -52,7 +52,7 @@ KavenegarApi = {
             end
 
             if callbackEvent and baseElement then
-                triggerEvent(callbackEvent, baseElement, success, responseInfo.statusCode, (success and json_response) and json_response.entries or json_response, callbackEventArgs)
+                triggerEvent(callbackEvent, baseElement, success, responseInfo.statusCode, json_response, callbackEventArgs)
             end
 
             if not success then
